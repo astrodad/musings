@@ -12,7 +12,7 @@
   
   {{ $posts := where site.RegularPages "Type" "post" }}
   
-  {{ $grouped := $posts.GroupByDate "2006-01" }}
+  {{ $grouped := $posts.GroupByDate "2006-01-02" }}
   {{ range $grouped }}
   {{ $thedate := (time .Key) }}
   <h3 class="post-group"> {{ $thedate.Format "January 2, 2006" }}</h3>
