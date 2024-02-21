@@ -425,9 +425,9 @@ a.nav-home, a.nav-blog {
 
 .post-group {
 	margin-top: 64px;
-	color: var(--primary-color);
+	color: var(--secondary-color);
     font-family: var(--font-meta);
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .post-meta {
