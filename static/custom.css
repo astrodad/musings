@@ -7,6 +7,12 @@
 	box-shadow: 0 2px 3px rgba(0,0,0,.1);
 }
 
+.tinylytics_kudos {
+    /* this class styles the entire Kudos button. Works for both shortcode and embed methods. */
+    background: var(--secondary-background-color);
+    --font-color: #2C2F3A;
+}
+
 
 .summary-container {
         display: flex;
