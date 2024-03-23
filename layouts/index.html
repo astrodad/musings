@@ -1,6 +1,6 @@
 {{ define "main" }}
 	{{ $posts := where site.Pages "Type" "post" }}
-	{{ $hidden_posts := where $posts "Params.categories" "intersect" (slice "Podcast") }}
+	{{ $hidden_posts := where $posts "Params.categories" "intersect" (slice "podcast") }}
 	{{ $posts = $posts | symdiff $hidden_posts }}
 	{{ $grouped := $posts.GroupByDate "2006-01-02" }}
 	{{ $paginated := (.Paginate ($grouped)) }}
