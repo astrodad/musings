@@ -45,7 +45,7 @@
         height: 100%;
     }
 
-.microblog_reply_button {
+.microblog_reply_button input[type="submit"] {
     background: var(--bg-color);
     color: var(--font-color);
     border-bottom: 0px solid var(--primary-color);
