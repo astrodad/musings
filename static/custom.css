@@ -46,9 +46,9 @@
     }
 
 .microblog_reply_button input[type="submit"] {
-    background: var(--secondary-background-color);
-    color: var(--meta-color);
+    background: var(--secondary-color);
+    color: var(--primary-color);
     border-bottom: 0px solid var(--primary-color);
-    border-top: 0px solid var(--primary-color)
+    border-top: 0px solid var(--primary-color);
     border-radius: 5px;
 }
